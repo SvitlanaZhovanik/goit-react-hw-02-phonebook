@@ -27,7 +27,7 @@ class Form extends Component {
     return (
       <WrapperForm onSubmit={this.handleSubmit}>
         <Label>
-          <FcBusinessContact /> Name
+          <FcBusinessContact style={{ verticalAlign: 'middle' }} size="27px" /> Name
           <Input
             type="text"
             name="name"
@@ -40,7 +40,7 @@ class Form extends Component {
           />
         </Label>
         <Label>
-          <FcCallback /> Phone
+          <FcCallback style={{ verticalAlign: 'middle' }} size="27px" /> Phone
           <Input
             type="tel"
             name="number"
